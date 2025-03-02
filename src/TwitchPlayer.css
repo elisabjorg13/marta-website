@@ -1,0 +1,14 @@
+.twitch-player-container {
+    border: 8px solid #FFA500; /* Orange border */
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    width: fit-content; /* Adjust size based on child */
+}
+
+@media (max-width: 768px) {
+  .twitch-player-container {
+    width: 90%; 
+    height: 600px;
+  }
+}

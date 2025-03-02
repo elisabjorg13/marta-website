@@ -1,22 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import TwitchPlayer from "./Twitchplayer.js"; // Path to your TwitchPlayer component
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>MARTA APP HALLA</p>
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="">
+        <p>Marta twitch stream</p>
       </header>
+      <div>
+        <TwitchPlayer channel="martaakadottir" />
+      </div>
     </div>
   );
 }
