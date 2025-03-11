@@ -6,6 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+.emoji-image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px; /* Adjust size */
+}
+.bodys{
+  padding-bottom: 20px;
+}
+.title-image {
+  padding-top: 80px;
+  width: 350px; /* Adjust size */
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +27,7 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

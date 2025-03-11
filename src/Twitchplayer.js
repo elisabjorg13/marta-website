@@ -4,8 +4,8 @@ import './TwitchPlayer.css'; // Import external CSS file
 
 const TwitchPlayer = ({ channel }) => {
   const [dimensions, setDimensions] = useState({
-    width: "1000px",  // Default desktop size
-    height: "450px",
+    width: "900px",  // Default desktop size
+    height: "400px",
   });
 
   useEffect(() => {
