@@ -1,3 +1,201 @@
+* {
+  color: #CCE846;
+  margin: 10px;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.lang-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.lang-active {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: default;
+}
+
+.lang-inactive {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.lang-inactive:hover {
+  opacity: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px;
+}
+
+.en-title {
+}
+
+.en-intro {
+
+}
+
+.en-about-heading {
+  margin-left: 10rem;
+}
+
+.en-about {
+  margin-left: 20rem;
+}
+.description-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.description-image {
+  width: 40%;
+  max-height: 300px;
+  object-fit: contain;
+}
+.description-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.en-about-pt2 {
+  margin-left: 0rem;
+  margin-right: 20rem;
+}
+
+.en-trailer {
+  margin-left: 10rem;
+  font-weight: bold;
+}
+
+.en-loss {
+  margin-left: 25rem;
+}
+
+.en-loss-pt2 {
+  font-size: x-large;
+}
+
+.en-offer-heading {
+  margin-left: 5rem;
+}
+
+.en-offer-tech {
+  margin-left: 10rem;
+}
+
+.en-offer-docs {
+  margin-left: 15rem;
+}
+
+.en-offer-production {
+  margin-left: 12rem;
+}
+
+.en-offer-note {
+  margin-left: 25rem;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.en-apply-heading {
+}
+
+.en-apply-email {
+}
+
+.en-apply-proposal {
+}
+
+.en-apply-cv {
+}
+
+.en-deadline {
+}
+
+.is-title {
+}
+
+.is-intro {
+}
+
+.is-intro-pt2 {
+}
+
+.is-about-heading {
+  margin-left: 10rem;
+}
+
+.is-about {
+  margin-left: 20rem;
+}
+
+.is-about-pt2 {
+  margin-left: 0rem;
+  margin-right: 20rem;
+}
+
+.is-trailer {
+  margin-left: 10rem;
+  font-weight: bold;
+}
+
+.is-loss {
+  margin-left: 25rem;
+}
+
+.is-loss-pt2 {
+  font-size: x-large;
+}
+
+.is-offer-heading {
+  margin-left: 5rem;
+}
+
+.is-offer-tech {
+  margin-left: 10rem;
+}
+
+.is-offer-docs {
+  margin-left: 15rem;
+}
+
+.is-offer-production {
+  margin-left: 12rem;
+}
+
+.is-offer-note {
+  margin-left: 25rem;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.is-apply-heading {
+}
+
+.is-apply-email {
+}
+
+.is-apply-proposal {
+}
+
+.is-apply-cv {
+}
+
+.is-deadline {
+}
+
+.is-funded {
+}
+
+/*
 .App {
   text-align: center;
 }
@@ -10,7 +208,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 200px; /* Adjust size */
+  width: 200px;
 }
 .bodys{
   display: flex;
@@ -20,7 +218,7 @@
 }
 .title-image {
   padding-top: 80px;
-  width: 350px; /* Adjust size */
+  width: 350px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -52,3 +250,4 @@
     transform: rotate(360deg);
   }
 }
+*/
