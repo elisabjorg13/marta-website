@@ -208,8 +208,9 @@
   .mobile-logo {
     display: block;
     position: fixed;
+    top: -10px;
     left: 16px;
-    height: 200px;
+    height: 60px;
     width: auto;
     object-fit: contain;
   }
