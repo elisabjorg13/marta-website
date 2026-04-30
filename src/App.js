@@ -6,6 +6,11 @@ function App() {
 
   return (
     <div>
+      <img
+        src="/komumutiminus.opencall5.png"
+        alt="Komum út í mínus"
+        className="mobile-logo"
+      />
       <div className="lang-toggle">
         <span
           className={lang === "IS" ? "lang-active" : "lang-inactive"}

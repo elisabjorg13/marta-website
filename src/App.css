@@ -5,6 +5,10 @@
   text-align: justify;
 }
 
+.mobile-logo {
+  display: none;
+}
+
 .lang-toggle {
   position: fixed;
   top: 16px;
@@ -201,20 +205,27 @@
 }
 
 @media (max-width: 600px) {
+  .mobile-logo {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 16px;
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+
   .content {
     padding: 12px;
+    padding-top: 60px;
   }
 
   .description-row {
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
   }
 
   .description-image {
-    width: 80px;
-    max-height: 80px;
-    object-fit: contain;
-    flex-shrink: 0;
+    display: none;
   }
 
   .trailer-row {
