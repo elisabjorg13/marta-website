@@ -63,10 +63,12 @@ function App() {
               </p>
             </div>
           </div>
-
-          <p className="en-trailer">
-            Trailer: https://www.youtube.com/watch?v=HWD1Mq2f__o
-          </p>
+<div className="trailer-row">
+  <p className="en-trailer">Trailer:</p>
+  <a href="https://www.youtube.com/watch?v=HWD1Mq2f__o" target="_blank">
+    <p>https://www.youtube.com/watch?v=HWD1Mq2f__o</p>
+  </a>
+</div>
           <p className="en-loss">
             In 2025 we ended up at a 13.439 ISK loss.
             <p className="en-loss-pt2">How much will it be this year?</p>
@@ -110,24 +112,28 @@ function App() {
             />
             <div className="description-text">
               <p className="is-about">
-                Komum út í mínus er sviðslistahátíð sem er stofnuð af þremur ungum
-                listamönnum: Bertine Bertelsen Fadnes, Mörtu Ákadóttur og Leevi
-                Mettinen sem kynntumst öll í Listaháskóla Íslands. Við höfum öll
-                tekið eftir skort á grasrótar vettvangi fyrir sviðslistir í
-                Reykjavík og þess vegna stofnuðum við Komum út í mínus, vettvang sem
-                styður við tilraunir, áhættur og sýnileika nýrra radda.
+                Komum út í mínus er sviðslistahátíð sem er stofnuð af þremur
+                ungum listamönnum: Bertine Bertelsen Fadnes, Mörtu Ákadóttur og
+                Leevi Mettinen sem kynntumst öll í Listaháskóla Íslands. Við
+                höfum öll tekið eftir skort á grasrótar vettvangi fyrir
+                sviðslistir í Reykjavík og þess vegna stofnuðum við Komum út í
+                mínus, vettvang sem styður við tilraunir, áhættur og sýnileika
+                nýrra radda.
               </p>
               <p className="is-about-pt2">
-                Hátíðin var haldin í fyrsta sinn í Tóma Rýminu haustið 2025 og stóð
-                yfir í 12 klukkustundir. Þar komu saman um 30 listamenn og 200
-                gestir, sem sýndi bæði mikinn áhuga áhorfenda og brýna þörf fyrir
-                vettvang af þessum toga.
+                Hátíðin var haldin í fyrsta sinn í Tóma Rýminu haustið 2025 og
+                stóð yfir í 12 klukkustundir. Þar komu saman um 30 listamenn og
+                200 gestir, sem sýndi bæði mikinn áhuga áhorfenda og brýna þörf
+                fyrir vettvang af þessum toga.
               </p>
             </div>
           </div>
-          <p className="is-trailer">
-            Trailer: https://www.youtube.com/watch?v=HWD1Mq2f__o
-          </p>
+          <div className="trailer-row">
+            <p className="is-trailer">Trailer:</p>
+            <a href="https://www.youtube.com/watch?v=HWD1Mq2f__o" target="_blank">
+              <p>https://www.youtube.com/watch?v=HWD1Mq2f__o</p>
+            </a>
+          </div>
           <p className="is-loss">
             Árið 2025 enduðum við í 13.439 kr. mínus.
             <p className="is-loss-pt2">Hversu mikið verður það í ár?</p>
