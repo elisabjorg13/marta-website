@@ -65,7 +65,7 @@ function App() {
           </div>
 <div className="trailer-row">
   <p className="en-trailer">Trailer:</p>
-  <a href="https://www.youtube.com/watch?v=HWD1Mq2f__o" target="_blank">
+  <a href="https://www.youtube.com/watch?v=HWD1Mq2f__o" target="_blank" rel="noreferrer">
     <p>https://www.youtube.com/watch?v=HWD1Mq2f__o</p>
   </a>
 </div>
@@ -130,7 +130,7 @@ function App() {
           </div>
           <div className="trailer-row">
             <p className="is-trailer">Trailer:</p>
-            <a href="https://www.youtube.com/watch?v=HWD1Mq2f__o" target="_blank">
+            <a href="https://www.youtube.com/watch?v=HWD1Mq2f__o" target="_blank" rel="noreferrer">
               <p>https://www.youtube.com/watch?v=HWD1Mq2f__o</p>
             </a>
           </div>
