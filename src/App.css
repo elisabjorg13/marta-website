@@ -200,6 +200,77 @@
 .is-funded {
 }
 
+@media (max-width: 600px) {
+  .content {
+    padding: 12px;
+  }
+
+  .description-row {
+    flex-direction: column;
+  }
+
+  .description-image {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .trailer-row {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .en-about-heading,
+  .is-about-heading {
+    margin-left: 0;
+  }
+
+  .en-about,
+  .is-about {
+    margin-left: 0;
+  }
+
+  .en-about-pt2,
+  .is-about-pt2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .en-trailer,
+  .is-trailer {
+    margin-left: 0;
+  }
+
+  .en-loss,
+  .is-loss {
+    margin-left: 0;
+  }
+
+  .en-offer-heading,
+  .is-offer-heading {
+    margin-left: 0;
+  }
+
+  .en-offer-tech,
+  .is-offer-tech {
+    margin-left: 0;
+  }
+
+  .en-offer-docs,
+  .is-offer-docs {
+    margin-left: 0;
+  }
+
+  .en-offer-production,
+  .is-offer-production {
+    margin-left: 0;
+  }
+
+  .en-offer-note,
+  .is-offer-note {
+    margin-left: 0;
+  }
+}
+
 /*
 .App {
   text-align: center;
