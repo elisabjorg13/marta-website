@@ -206,12 +206,15 @@
   }
 
   .description-row {
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
   }
 
   .description-image {
-    width: 100%;
-    max-height: 200px;
+    width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+    flex-shrink: 0;
   }
 
   .trailer-row {
