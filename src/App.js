@@ -68,12 +68,16 @@ function App() {
               </p>
             </div>
           </div>
-<div className="trailer-row">
-  <p className="en-trailer">Trailer:</p>
-  <a href="https://www.youtube.com/watch?v=HWD1Mq2f__o" target="_blank" rel="noreferrer">
-    <p>https://www.youtube.com/watch?v=HWD1Mq2f__o</p>
-  </a>
-</div>
+          <div className="trailer-row">
+            <p className="en-trailer">Trailer:</p>
+            <a
+              href="https://www.youtube.com/watch?v=HWD1Mq2f__o"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>https://www.youtube.com/watch?v=HWD1Mq2f__o</p>
+            </a>
+          </div>
           <p className="en-loss">
             In 2025 we ended up at a 13.439 ISK loss.
             <p className="en-loss-pt2">How much will it be this year?</p>
@@ -135,7 +139,11 @@ function App() {
           </div>
           <div className="trailer-row">
             <p className="is-trailer">Trailer:</p>
-            <a href="https://www.youtube.com/watch?v=HWD1Mq2f__o" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.youtube.com/watch?v=HWD1Mq2f__o"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p>https://www.youtube.com/watch?v=HWD1Mq2f__o</p>
             </a>
           </div>
@@ -148,16 +156,15 @@ function App() {
           <p className="is-offer-docs">Upptöku/myndefni</p>
           <p className="is-offer-production">Framleiðsluaðstoð</p>
           <p className="is-offer-note">
-            Þökk sé Reykjavíkurborg eigum við pening fyrir framleiðslu stuðning.
-            Við höfum við ekki fjármagn/eigum ekki pening fyrir ferðakostnað eða
-            gistingu.
+            Þökk sé Reykjavíkurborg eigum við pening fyrir framleiðslu
+            stuðning.við getum ekki boðið upp á gistingu né ferðastyrki.
           </p>
           <h2 className="is-apply-heading">Umsókn:</h2>
           <p className="is-apply-email">
             Sendu tölvupóst á komumutiminus@gmail.com með:
           </p>
           <p className="is-apply-proposal">
-            Tillögu að/af verkefni (hámark 1 blaðsíða)
+            Tillögu að verkefni (hámark 1 blaðsíða)
           </p>
           <p className="is-apply-cv">Ferilskrá</p>
           <h3 className="is-deadline">Frestur til að sækja um: 30. maí</h3>
