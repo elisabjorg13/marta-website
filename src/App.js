@@ -157,7 +157,7 @@ function App() {
           <p className="is-offer-production">Framleiðsluaðstoð</p>
           <p className="is-offer-note">
             Þökk sé Reykjavíkurborg eigum við pening fyrir framleiðslu
-            stuðning.við getum ekki boðið upp á gistingu né ferðastyrki.
+            stuðning. Við getum ekki boðið upp á gistingu né ferðastyrki.
           </p>
           <h2 className="is-apply-heading">Umsókn:</h2>
           <p className="is-apply-email">
